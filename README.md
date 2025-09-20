@@ -4,3 +4,10 @@ This repository contains a Python class Pattern that demonstrates different star
 It’s a beginner–friendly project to practice nested loops, conditional statements, and class usage in Python.
 
 ## 📌 Patterns Included
+```bash
+*   *   *  
+*   *   *
+*   *   *
+*   *   *
+*   *   *
+```
