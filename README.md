@@ -1,12 +1,4 @@
-# Command Line Arguments in Python  
+⭐ Star Patterns in Python
 
-Demonstration of how to use command line arguments with Python.  
-
-<img width="1920" height="1080" alt="Arguments png" src="https://github.com/user-attachments/assets/46583e68-e9ec-428b-b34e-625884473b88" />
-
-## How to Run
-```bash
-#Open Command line , Choose folder which python file is there Run Below Command
-
-python app.py Argument-1 Argument-2
-
+This repository contains a Python class Pattern that demonstrates different star (*) patterns using loops and conditions.
+It’s a beginner–friendly project to practice nested loops, conditional statements, and class usage in Python.
