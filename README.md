@@ -30,5 +30,49 @@ It’s a beginner–friendly project to practice nested loops, conditional state
 * *
 *
 ```
+## 4.Left Triangle
+```bash
+*
+* *
+* * *
+* * * *
+* * * * *
+```
+## 5.Right Triangle
+```bash
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+```
 
+## 6.Array Pattern (Based on custom list input) Example with [2, 5, 4, 5, 2, 6, 8]:
 
+```bash
+* *
+* * * * *
+* * * *
+* * * * *
+* *
+* * * * * *
+* * * * * * * *
+```
+## 7.Border/Edge Pattern
+
+```bash
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
+```
+## 8.Pyramid Pattern
+
+```bash
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+```
