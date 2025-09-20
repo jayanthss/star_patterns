@@ -76,3 +76,13 @@ It’s a beginner–friendly project to practice nested loops, conditional state
   * * * * * * *
 * * * * * * * * *
 ```
+
+# Clone this repo:
+```bash
+git clone https://github.com/jayanthss/star-patterns.git
+cd star-patterns
+```
+# Run the script:
+```bash
+python pattern.py
+```
