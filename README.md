@@ -67,7 +67,7 @@ It’s a beginner–friendly project to practice nested loops, conditional state
 *       *
 * * * * *
 ```
-## 8.Pyramid Pattern
+## 8.Pyramid Pattern 1 (used 2 loops)
 
 ```bash
         *
@@ -75,6 +75,42 @@ It’s a beginner–friendly project to practice nested loops, conditional state
     * * * * *
   * * * * * * *
 * * * * * * * * *
+```
+
+## 9.Pyramid Pattern 2 (used 1 loop)
+
+```bash
+       *
+      ***
+     *****
+    ******* 
+
+```
+
+## 10.reverse pyramid 
+
+```bash
+* * * * * * * * * 
+  * * * * * * *
+    * * * * *
+      * * *
+        *
+```
+
+## 11.reverse pyramid and pyramid
+
+```bash
+  * * * * * * * * * 
+    * * * * * * *
+      * * * * *
+        * * *
+          *
+          *
+        * * *
+      * * * * *
+    * * * * * * *
+  * * * * * * * * *
+
 ```
 
 # Clone this repo:

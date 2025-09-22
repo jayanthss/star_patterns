@@ -169,7 +169,8 @@ class pattern:
            *
           ***
          *****
-        *******     This not well strctured like praymid_pattern1()
+        *******     
+        This not well strctured like praymid_pattern1()
   '''
 
   def praymid_pattern2(self):
