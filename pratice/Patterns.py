@@ -149,17 +149,83 @@ class pattern:
       * * * * * * * * *
 
   '''
-  def praymid_pattern(self):
+  def praymid_pattern1(self):
+
     count = 1
     for rows in range(1, self.num+1):
       for space in range(self.num - rows):
-        print(' ',end=" ")
+        print(" ",end=" ")
+
       
       for stars in range(count):
         print("*",end=" ")
 
       count += 2
       print("")
+      
+
+
+  '''
+           *
+          ***
+         *****
+        *******     This not well strctured like praymid_pattern1()
+  '''
+
+  def praymid_pattern2(self):
+    count = 1
+    for level in range(1 , self.num + 1):
+      space = self.num - level
+      print(space * " " + count * "*")
+      count += 2
+  
+  # reverse pyramid 
+
+  '''
+          * * * * * * * * * 
+            * * * * * * *
+              * * * * *
+                * * *
+                  *
+  '''
+
+  def reverse_pyramid(self):
+    count1 = 0
+    for rows in range(1 , self.num+1):
+      for space in range(count1):
+        print(" ",end=" ")
+      for star in range((self.num - count1)*2 - 1):
+        print("*",end=" ")
+      count1 += 1
+
+      print("")
+
+
+# both reverse and pyramid 
+
+  '''
+            * * * * * * * * * 
+              * * * * * * *
+                * * * * *
+                  * * *
+                    *
+                    *
+                  * * *
+                * * * * *
+              * * * * * * *
+            * * * * * * * * *
+
+  '''
+
+  def reverse_plus_normal_pyramid(self):
+    self.reverse_pyramid()
+    self.praymid_pattern1()
+    
+   
+
+
+
+    
 
         
 
@@ -172,4 +238,8 @@ my_patterns = pattern( 5,[2,5,4,5,2,6,8])
 # my_patterns.top_right_trianle()
 # my_patterns.skip_star()
 # my_patterns.edge_pattern()
-# my_patterns.praymid_pattern()
+# my_patterns.praymid_pattern1()
+# my_patterns.praymid_pattern2()
+# my_patterns.reverse_pyramid()
+my_patterns.reverse_plus_normal_pyramid()
+
