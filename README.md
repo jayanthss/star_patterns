@@ -115,8 +115,8 @@ It’s a beginner–friendly project to practice nested loops, conditional state
 
 # Clone this repo:
 ```bash
-git clone https://github.com/jayanthss/star-patterns.git
-cd star-patterns
+git clone https://github.com/jayanthss/star_patterns.git
+cd star_patterns
 ```
 # Run the script:
 ```bash
